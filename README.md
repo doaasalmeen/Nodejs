@@ -31,12 +31,12 @@ Setup
 
 Clone the repository:
 
-git clone <repo-url>
+        git clone <repo-url>
 
 
 Install dependencies:
 
-npm install
+        npm install
 
 
 Create a .env file with the following variables:
@@ -48,4 +48,4 @@ JWT_SECRET=<your-secret-key>
 
 Start the server:
 
-npm start
+        npm start
