@@ -41,7 +41,7 @@ Install dependencies:
 
 Create a .env file with the following variables:
 
-PORT=5000
+PORT=
 MONGO_URI=<your-mongodb-uri>
 JWT_SECRET=<your-secret-key>
 
