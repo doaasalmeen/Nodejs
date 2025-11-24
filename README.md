@@ -1,4 +1,5 @@
 # Nodejs
+
 This is a backend API built with Node.js, Express, and MongoDB for managing users and products. It provides authentication, product CRUD operations, and secure password handling.
 
 Features
@@ -33,18 +34,15 @@ Clone the repository:
 
         git clone <repo-url>
 
-
 Install dependencies:
 
         npm install
-
 
 Create a .env file with the following variables:
 
 PORT=
 MONGO_URI=<your-mongodb-uri>
 JWT_SECRET=<your-secret-key>
-
 
 Start the server:
 

@@ -15,11 +15,12 @@ app.use(express.urlencoded({ extended: true }));
 app.use("/auth", authRoutes);
 app.use("/products", productRoutes);
 //SERVER START
-mongoose.connect("MONGO_URI")
+mongoose
+  .connect("MONGO_URI")
   .then(() => {
     console.log("MongoDB connected");
-    app.listen(process.env.PORT || 5000, () => 
-      console.log(`Server running on port ${process.env.PORT || 5000}`)
+    app.listen(process.env.PORT || 5000, () =>
+      console.log(`Server running on port ${process.env.PORT || 5000}`),
     );
   })
-  .catch(err => console.error(err));
+  .catch((err) => console.error(err));
